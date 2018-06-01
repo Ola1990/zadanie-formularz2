@@ -11,11 +11,15 @@
        <fieldset>
            <legend>Customer info</legend>
            <label for="name">Name</label>
-           <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+           <input type="text" name="name" id="name" placeholder="Enter your name" required autofocus><br>
            <label for="phone">Telephone</label>
-           <input type="text" name="phone" id="phone" placeholder="Phone"><br>
+           <input type="text" name="phone" id="phone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Pattern 1-234-567-8910" required><br>
            <label for="email">Email address</label>
-           <input type="email" name="mail" id="email" placeholder="Enter your email address">
+           <input type="email" name="mail" id="email" placeholder="Enter your email address" required>
+       </fieldset>
+       <fieldset>
+           <legend>Books</legend>
+           
        </fieldset>
    </form>
    
